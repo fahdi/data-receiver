@@ -20,6 +20,16 @@
 
 	<div class="entry-content">
 		<?php
+
+		//echo "<pre>";
+		// print_r( $post );
+		// $t = wp_get_post_tags($post->ID);
+		// print_r($t);
+		//$tags = wp_get_post_tags( $post->ID, array( 'fields' => 'names' ) );
+
+		//print_r($tags);
+		//echo "</pre>";
+
 		the_content(
 			sprintf(
 				wp_kses(
